@@ -8,5 +8,11 @@ jobs:
   name: scanautomation
   runs-on: ubuntu-latest
   steps:
-  - name: aaa
+  - name: Running the vulnerable-app
     run: echo aman
+  - name: Starting the zero scanner
+    run: 
+    echo zero-scanner
+    echo output-is-here
+
+
