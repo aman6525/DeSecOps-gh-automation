@@ -1,0 +1,13 @@
+name: test
+on:
+ push:
+  branches:
+   "*"
+
+build:
+ name: scanautomation
+ id: scanauto
+ runs-on:ubuntu-latest
+ steps:
+   -name:aaa
+   -runs: echo aman
