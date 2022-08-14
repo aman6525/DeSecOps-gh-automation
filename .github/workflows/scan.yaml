@@ -9,7 +9,8 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: Running the vulnerable-app
-    run: echo aman
+    run: 
+      apt-get install php
   - name: Starting the zero scanner
     run: 
       echo zero-scanner
