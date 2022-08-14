@@ -11,7 +11,7 @@ jobs:
   - name: Running the vulnerable-app
     run: echo aman
   - name: Starting the zero scanner
-    run: 
+    run: |
     echo zero-scanner
     echo output-is-here
 
